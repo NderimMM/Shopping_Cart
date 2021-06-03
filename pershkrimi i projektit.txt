@@ -1,0 +1,19 @@
+krijimi i index.html dhe index.css
+
+Krijimi i Rating dhe Product Komponeteve
+
+data.js - Source kodi i produkteve
+
+const data = {}  i definon te dhenat, data eshte objekt
+
+.map() - me i konvertu javascript produkt item ne html elemete
+
+product =>  Per secilin produkt i konverton te funksioni map
+
+Komponentet - <Product>, <Rating>, <Link>, <Route>
+
+krijimi i produkteve ne homepage
+
+krijimi i screen-ave per te shfaqur te gjitha produktet dhe secilin produkt 1 nga 1 dhe te dhenat apo details qe i perkasin secilit produkt 
+
+krijimi dhe startimi i i serverit permes node js , konfigurimi me ane te nodemon(npm install --save-dev nodemon) ne menyre qe te shfaqe ndryshimet pa pasur nevoje te ristartohet serveri  
