@@ -40,3 +40,9 @@ ne productReducers.js - ne e kemi update-u redux store te bazume ne produkt list
 ne HomeScreen.js - e kemi largu komplet kodin fecht data nga backendi dhe dispatch redux action
 
 Krijimi i CartScreen dhe funksionit add to cart - per te treguar produktet e shtuara ne cart 
+
+Krijimi i add to cart screen , krijimi i funksionit per te shtuar dhe hequr prduktet nga cart 
+dhe funksionaliteti i buttonit procced to checkout.
+
+Funksionaliteti per butonit per fshirjen e cart item(delete) , disa ndryshime ne cart action , 
+cartscreen , cart reducers ,dhe cart screen
