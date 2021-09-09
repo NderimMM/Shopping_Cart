@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 100vh;
     font-size: 1.6rem;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 /* Layout */
@@ -25,7 +25,7 @@ body {
 
 header{
     grid-area: header;
-    background-color: #0e010a;
+    background-color: #e0e0e0;
 }
 
 main {
@@ -35,72 +35,74 @@ main {
 
 footer {
     grid-area: footer;
-    background-color:#0e010a ;
-    color: #ffffff
+    background-color:#e0e0e0 ;
+    color: #000000;
 }
 
-/*Common */
-h1{
-    font-size: 1rem;
+/* Common */
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2 {
+    font-size: 1.6rem;
     padding: 1rem 0;
 }
 a {
     text-decoration: none;
 }
-
 a:hover {
-    color: #ff8000;
+    color: gray;
 }
 
-/* Header */
-
+/*Headeri*/
 header a{
-    color: #ffffff;
-    padding: 1rem;
+    color: #000000;
+    padding: 1.5rem;
 }
-
-a.brand{
-    color: #ffffff;
+a.brand {
+    color: #000000 ;
     font-size: 3rem;
     font-weight: bold;
-}   
-
-.row{
+}
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-
 .row.center {
     justify-content: center;
 }
-/*image*/
-img{
+
+/* images */
+img {
     border-radius: 0.5rem;
 }
-img.medium{
+img.medium {
     max-width: 29rem;
     width: 100%;
 }
-/*card*/
+
+/* Card */
 .card{
-    border: 0.1rem #c0c0c0 solid;
+    border:0.1 rem #c0c0c0 solid;
     background-color: #f8f8f8;
     border-radius: 0.5rem;
     margin: 1rem;
 }
-.card-body{
+.card-body {
     padding: 1rem;
 }
-.card-body > * { 
+.card-body > * {
     margin-bottom: 0.5rem;
 }
-.price{
+.price {
     font-size: 2rem;
 }
-/*Rating*/
+
+/* Rating */
 .rating span {
-color: #f0c040;
-margin: 0.1rem;
+    color: #f0c040;
+    margin: 0.1rem;
 }
